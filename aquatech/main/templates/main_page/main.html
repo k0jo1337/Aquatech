@@ -1,0 +1,102 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %}Профиль{% endblock %}
+
+{% block content %}
+
+ <div id="menuToggle">
+
+    <input id="menuToggle_main" type="checkbox" />
+    <span></span>
+    <span></span>
+    <span></span>
+
+    <ul id="menu">
+      <li>Имя</li>
+      <input id="test">
+      <li>E-mail</li>
+      <input id="test">
+      <li>Номер телефона</li>
+      <input id="test">
+
+
+      <input id="test" type="submit">
+    </ul>
+  </div>
+
+<div class="carousel">
+  <div class="carousel__nav">
+   <span id="moveLeft" class="carousel__arrow">
+        <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+    <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+</svg>
+    </span>
+    <span id="moveRight" class="carousel__arrow" >
+      <svg class="carousel__icon"  width="24" height="24" viewBox="0 0 24 24">
+  <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+</svg>
+    </span>
+  </div>
+  <div class="carousel-item carousel-item--1">
+    <div class="carousel-item__image"></div>
+    <div class="carousel-item__info">
+      <div class="carousel-item__container">
+      <h1 class="carousel-item__title">Чистая вода как из кулеров, но дешевле</h1>
+      <p class="carousel-item__description">Для больших и маленьких предприятий на территории Краснодарского края и Крыма</p>
+      <a href="{% url 'products'%}" class="carousel-item__btn">Выбрать</a>
+        </div>
+    </div>
+  </div>
+  <div class="carousel-item carousel-item--2">
+    <div class="carousel-item__image"></div>
+    <div class="carousel-item__info">
+      <div class="carousel-item__container">
+      <h2 class="carousel-item__subtitle">The big window </h2>
+      <h1 class="carousel-item__title">Что такое пурифайер?</h1>
+      <p class="carousel-item__description">Пурифайер для воды — это устройство, которое очищает водопроводную воду от различных загрязнений, таких как хлор, бактерии, вирусы, тяжелые металлы и другие вредные примеси. Если для кулеров нужно покупать воду практически всегда, то фильтр этой станции можно менять раз в полгода¹. Аппарат подключается к водопроводу, после многоуровневой фильтрации вкус воды и её качество идентичны бутилированной.
+      </p>
+      <a href="#" class="carousel-item__btn">Подробнее</a>
+        </div>
+    </div>
+  </div>
+    <div class="carousel-item carousel-item--3">
+    <div class="carousel-item__image"></div>
+    <div class="carousel-item__info">
+      <div class="carousel-item__container">
+      <h2 class="carousel-item__subtitle">Tropical palms</h2>
+      <h1 class="carousel-item__title">Зачем нам пурифайер, если есть кулеры?</h1>
+      <p class="carousel-item__description">Пурифайер позволяет очищать воду непосредственно у себя дома или в офисе, что экономит время и деньги на покупку бутилированной воды. Экономия очевидна, если учитывать, что 1 литр чистой воды из пурифайера стоит меньше, чем 1 рубль, а 1 литр для кулера – примерно 10 рублей. По расчётам, для отеля или гостиницы 1 пурифайер окупается за 1 туристический сезон, а за 4 сезона вы сэкономите более 250 тысяч рублей!</p>
+      <a href="#" class="carousel-item__btn">Explore the palms</a>
+        </div>
+    </div>
+  </div>
+
+   <div class="carousel-item carousel-item--4">
+    <div class="carousel-item__image"></div>
+    <div class="carousel-item__info">
+      <div class="carousel-item__container">
+      <h2 class="carousel-item__subtitle">Beach </h2>
+      <h1 class="carousel-item__title">Наши пурифайеры</h1>
+      <p class="carousel-item__description">Есть множество видов пурифайеров: настольные, напольные, цвета также бывают разные. Мы работаем с аппаратам южнокорейской фирмы Ecotronic, что обеспечивает надежность и долговечность на долгие годы. Есть также аппараты и других фирм, в зависимости от пожеланий и финансовых возможностей клиента.</p>
+      <a href="#" class="carousel-item__btn">Посмотреть аппараты</a>
+        </div>
+    </div>
+  </div>
+
+ <div class="carousel-item carousel-item--5">
+    <div class="carousel-item__image"></div>
+    <div class="carousel-item__info">
+      <div class="carousel-item__container">
+      <h2 class="carousel-item__subtitle">The white building </h2>
+      <h1 class="carousel-item__title">White building</h1>
+      <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+      <a href="#" class="carousel-item__btn">Read the article</a>
+        </div>
+    </div>
+  </div>
+
+</div>
+</body>
+
+{% endblock %}
