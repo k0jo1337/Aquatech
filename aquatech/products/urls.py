@@ -6,4 +6,4 @@ urlpatterns = [
     path('products', views.products, name='products')
 ]
 
-#sanya loh net ti loh
+#sanya loh net ti loh ahahhahaha
