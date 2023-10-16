@@ -4,6 +4,39 @@
 @import url("bootstrap.css");
 /* остальные стили */
 
+  @media (min-width: 1000px) {
+   .carousel-size{
+       max-width: 1000px;
+       max-height: 650px;
+   }
+   .header_img{
+       max-width: 300px;
+   }
+   .main_product_items{
+        max-width: 1140px;
+        max-height: 650px;
+   }
+   .product_item{
+   max-width: 540px;
+   }
+   }
+  @media (min-width: 1920px) {
+    .carousel-size{
+        max-width:1500px;
+        max-height:850px;
+    }
+    .header_img{
+       max-width: 400px;
+   }
+   .main_product_items{
+        max-width: 1500px;
+        max-height: 850px;
+   }
+   .product_item{
+        max-width: 720px;
+   }
+  }
+
 
 * {
   box-sizing: border-box;
@@ -30,8 +63,7 @@ body {
     width: 100%;
     height: 100%;
     display: flex;
-    max-width: 1000px;
-    max-height: 650px;
+
     overflow: hidden;
   position: relative;
   z-index: 0;
@@ -241,11 +273,11 @@ transform: translateX(0);
 
 }
 .header_img{
-  width: 300px; 
+    width: 100%;
 }
 .header_img img{
   height: 100%;
-  width: 82%; /*поменял коэфы чтобы хорошо стояло */
+  width: 100%; /*поменял коэфы чтобы хорошо стояло */
   margin-top: 10px;
 }
 
@@ -406,8 +438,6 @@ transform: translateX(0);
 .main_product_items{
     width: 100%;
     height: 100%;
-    max-width: 1140px;
-    max-height: 650px;
     margin-top: 80px;
 }
 .product_item{
