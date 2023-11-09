@@ -19,8 +19,12 @@
    .product_item{
    max-width: 540px;
    }
+    .profil_container{
+        height: 550px;
+        width: 1050px;
+    }
    }
-  @media (min-width: 1920px) {
+  @media (min-width: 1900px) {
     .carousel-size{
         max-width:1500px;
         max-height:850px;
@@ -35,7 +39,12 @@
    .product_item{
         max-width: 720px;
    }
+    .profil_container{
+        height: 700px;
+        width: 1530px;
+    }
   }
+
 
 
 * {
@@ -454,4 +463,24 @@ div.scroll {
 div.scroll::-webkit-scrollbar {
     width: 0;
     height: 0;
+}
+
+
+div.profil_container{
+    position: absolute;
+    top: 120px;
+}
+div.profil_item_1{
+    height: 100%;
+    width: 30%;
+    background: #F8FAFC;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+}
+div.profil_item_2{
+    height: 175%;
+    width: 67%;
+    background: #F8FAFC;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    float: right;
 }
