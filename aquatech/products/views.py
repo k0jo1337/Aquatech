@@ -7,6 +7,10 @@ def products(request):
 
 
 def A60_WHITE(request):
-    return render(request, 'items/A60 WHITE.html')
+    return render(request, 'items/A60-WHITE.html')
+
+def A60_BLACK(request):
+    return render(request, 'items/A60-BLACK.html')
+
 
 
