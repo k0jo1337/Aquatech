@@ -6027,6 +6027,7 @@ textarea.form-control-lg {
   position: relative;
   width: 100%;
   overflow: hidden;
+  
 }
 .carousel-inner::after {
   display: block;
@@ -6050,11 +6051,13 @@ textarea.form-control-lg {
   }
 }
 
-/*.carousel-item.active,
+/*
+.carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
   display: block;
-}*/
+  
+}
 
 .carousel-item-next:not(.carousel-item-start),
 .active.carousel-item-end {
@@ -6064,6 +6067,7 @@ textarea.form-control-lg {
 .carousel-item-prev:not(.carousel-item-end),
 .active.carousel-item-start {
   transform: translateX(-100%);
+  
 }
 
 .carousel-fade .carousel-item {
