@@ -1,0 +1,109 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %}Товары{% endblock %}
+{% block content %}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/css/bootstrap.min.css">
+<style>
+.second-paragraph {
+        font-size:small;
+        margin-top: -10px;
+        margin-bottom: -5px;
+        font-style:italic;
+}
+.intro-description{
+        text-indent: 20px;
+        text-align: justify;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 25px;
+
+.carousel-indicators {
+  position: static;
+}
+.carousel-indicators li {
+  width: 100px;
+  height: 10%;
+  opacity: 0.8;
+}
+
+
+}
+</style>
+
+
+<div class="profil_container">
+        <div class="profil_item_1">  
+        
+</div>
+        <div class="profil_item_2">
+                <p class="intro-description">Пурифайер напольного типа с ультрафильтрационной системой очистки воды. Бак холодной воды 6,5л. Бак горячей воды 5л. Мощность нагревательного элемента 800 Вт. Защита на кране горячей воды. Краны "нажим кружкой". Цвет: белый. Производство: Корея. 
+                </p>
+                <table class="table">
+                        <thead>
+                        </thead>
+                        <tbody>
+                        <tr class="table-success">
+                                <td>Cтрана-производитель</td>
+                                <td colspan="5">Южная Корея <img width="28" height="28" src="https://img.icons8.com/stickers/100/south-korea--v2.png" alt="south-korea--v2"/></td>
+                        </tr>        
+                        <tr>
+                                <td>Тип установки</td>
+                                <td colspan="5">Напольный</td>
+                        </tr> 
+                        <tr>
+                                <td>Тип охлаждения</td>
+                                <td colspan="5">Компрессорный</td>
+                        </tr>
+                        <tr class="table-warning">
+                                <td>Кружек* горячей воды (85-90 C) за раз</td>
+                                <td colspan="5">26</td>
+                        </tr>
+                        <tr class="table-light">
+                                <td>Кружек* ледяной воды (5-10 C) за раз</td>
+                                <td colspan="5">14</td>
+                        </tr>
+                        <tr>
+                                <td>Производительность ледяной воды</td>
+                                <td colspan="5">3,5 литра в час</td>
+                        </tr>
+                        <tr>
+                                <td>Производительность горячей воды</td>
+                                <td colspan="5">6,5 литров в час</td>
+                        </tr>
+                        <tr>
+                                <td>Тип кранов</td>
+                                <td colspan="5">Нажим кружкой</td>
+                        </tr>
+                        <tr>
+                                <td>Цвет корпуса</td>
+                                <td colspan="5">Белый</td>
+                        </tr>
+                        <tr>
+                                <td>Материал корпуса</td>
+                                <td colspan="5">Прочный пластик</td>
+                        </tr>
+                        <tr>
+                                <td>Система фильтрации</td>
+                                <td colspan="5"> 
+                                        <p>Ультрафильтрация: Sed+Pre+UF+Post
+                                        <p class="second-paragraph">Что это значит?</p>
+                                </td>
+                        </tr>
+                        <tr>
+                                <td>Габариты</td>
+                                <td colspan="5">1120х320х357 мм.</td>
+                        </tr>
+        
+                        </tbody>
+                      </table>
+                      <p class="second-paragraph">*1 кружка воды равна 250 миллилитрам</p>
+        </div>
+        
+
+</div>
+
+
+{% endblock %}
