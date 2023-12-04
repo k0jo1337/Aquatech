@@ -4,46 +4,55 @@
 @import url("bootstrap.css");
 /* остальные стили */
 
-  @media (min-width: 1000px) {
-   .carousel-size{
-       max-width: 1000px;
-       max-height: 650px;
-   }
-   .header_img{
-       max-width: 300px;
-   }
-   .main_product_items{
+@media (min-width: 1000px) {
+    .carousel-size {
+        max-width: 1000px;
+        max-height: 650px;
+    }
+
+    .header_img {
+        max-width: 300px;
+    }
+
+    .main_product_items {
         max-width: 1140px;
         max-height: 650px;
-   }
-   .product_item{
-   max-width: 540px;
-   }
-    .profil_container{
+    }
+
+    .product_item {
+        max-width: 540px;
+    }
+
+    .profil_container {
         height: 550px;
-        width: 1050px;
+        max-width: 1050px;
     }
-   }
-  @media (min-width: 1900px) {
-    .carousel-size{
-        max-width:1500px;
-        max-height:850px;
-    }
-    .header_img{
-       max-width: 400px;
-   }
-   .main_product_items{
+}
+
+@media (min-width: 1900px) {
+    .carousel-size {
         max-width: 1500px;
         max-height: 850px;
-   }
-   .product_item{
-        max-width: 720px;
-   }
-    .profil_container{
-        height: 700px;
-        width: 1530px;
     }
-  }
+
+    .header_img {
+        max-width: 400px;
+    }
+
+    .main_product_items {
+        max-width: 1500px;
+        max-height: 850px;
+    }
+
+    .product_item {
+        max-width: 720px;
+    }
+
+    .profil_container {
+        height: 700px;
+        max-width: 1530px;
+    }
+}
 
 
 
@@ -76,6 +85,10 @@ body {
     overflow: hidden;
   position: relative;
   z-index: 0;
+}
+.carousel-size {
+    width: 100%;
+    height: 80%; /* Изменено на auto для адаптивной высоты */
 }
 
 .carousel-item {
@@ -447,7 +460,8 @@ transform: translateX(0);
 .main_product_items{
     width: 100%;
     height: 100%;
-    margin-top: 80px;
+
+    margin-top: 70px;
 }
 .product_item{
     float:left;
@@ -484,3 +498,33 @@ div.profil_item_2{
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     float: right;
 }
+.header_img {
+    width: 100%;
+    max-width: 300px; /* Максимальная ширина для адаптивности */
+}
+
+.main_product_items {
+    width: 100%;
+    height: auto; /* Изменено на auto для адаптивной высоты */
+}
+
+.product_item {
+    width: 100%;
+}
+
+.profil_container {
+    height: auto; /* Изменено на auto для адаптивной высоты */
+    width: 100%;
+    max-width: 1050px; /* Максимальная ширина для адаптивности */
+}
+
+div.phone{
+    float: right;
+    margin-top: -60px;
+    font-size: clamp(18px, 5vw, 30px);
+    color: white;
+}
+div.phone p{
+    margin-bottom:0px;
+}
+/* тестовый коммит*/
