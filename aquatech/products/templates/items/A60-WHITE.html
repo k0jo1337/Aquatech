@@ -5,41 +5,66 @@
 {% block content %}
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/css/bootstrap.min.css">
-<style>
-.second-paragraph {
-        font-size:small;
-        margin-top: -10px;
-        margin-bottom: -5px;
-        font-style:italic;
-}
-.intro-description{
-        text-indent: 20px;
-        text-align: justify;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        margin-left: 5px;
-        margin-right: 25px;
-
-.carousel-indicators {
-  position: static;
-}
-.carousel-indicators li {
-  width: 100px;
-  height: 10%;
-  opacity: 0.8;
-}
-
-
-}
-</style>
+<link rel="stylesheet" href="{% static 'css/purifier_pages_style.css' %}" >
 
 
 <div class="profil_container">
         <div class="profil_item_1">  
-        
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-interval="false">
+                        
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                                <img src="https://ecotronic.ru/published/publicdata/ECOTRONIC/attachments/SC/products_pictures/A60-U4L%20black-2_enl.jpg" class="d-block w-100" alt="">
+                           </div>
+                          <div class="carousel-item">
+                            <img src="https://ecotronic.ru/published/publicdata/ECOTRONIC/attachments/SC/products_pictures/_ND47736_enl.jpg" class="d-block w-100" alt="">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://ecotronic.ru/published/publicdata/ECOTRONIC/attachments/SC/products_pictures/_ND47740-1_enl.jpg" class="d-block w-100" alt="">
+                          </div>
+                          <div class="carousel-item">
+                                <img src="https://ecotronic.ru/published/publicdata/ECOTRONIC/attachments/SC/products_pictures/_ND47756_enl.jpg" class="d-block w-100" alt="">
+                          </div>
+                          <div class="carousel-item">
+                                <img src="https://ecotronic.ru/published/publicdata/ECOTRONIC/attachments/SC/products_pictures/_ND47770_enl.jpg" class="d-block w-100" alt="">
+                          </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+
+                        
+                        <ol class="carousel-indicators">
+                                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active">
+                                        <img src="https://ecotronic.ru/published/publicdata/ECOTRONIC/attachments/SC/products_pictures/A60-U4L%20black-2_enl.jpg" class="d-block w-100" alt="">
+                                </li>
+                                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
+                                        <img src="https://ecotronic.ru/published/publicdata/ECOTRONIC/attachments/SC/products_pictures/_ND47736_enl.jpg" class="d-block w-100" alt="">
+                                </li>
+                                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
+                                        <img src="https://ecotronic.ru/published/publicdata/ECOTRONIC/attachments/SC/products_pictures/_ND47740-1_enl.jpg" class="d-block w-100" alt="">
+                                </li>
+                                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3">
+                                        <img src="https://ecotronic.ru/published/publicdata/ECOTRONIC/attachments/SC/products_pictures/_ND47756_enl.jpg" class="d-block w-100" alt="">
+                                </li>
+                                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4">
+                                        <img src="https://ecotronic.ru/published/publicdata/ECOTRONIC/attachments/SC/products_pictures/_ND47770_enl.jpg" class="d-block w-100" alt="">
+                                </li>
+                                </ol>
+
+
+                      </div>
 </div>
         <div class="profil_item_2">
-                <p class="intro-description">Пурифайер напольного типа с ультрафильтрационной системой очистки воды. Бак холодной воды 6,5л. Бак горячей воды 5л. Мощность нагревательного элемента 800 Вт. Защита на кране горячей воды. Краны "нажим кружкой". Цвет: белый. Производство: Корея. 
+                <p class="product-title">Пурифайер Ecotronic A60-U4L Чёрный</p>
+                <p class="intro-description">Пурифайер напольного типа с ультрафильтрационной системой очистки воды. Бак холодной воды 6,5л. Бак горячей воды 5л. Мощность нагревательного элемента 800 Вт. Защита на кране горячей воды. Краны "нажим кружкой". Цвет: белый.  
                 </p>
                 <table class="table">
                         <thead>
@@ -61,7 +86,7 @@
                                 <td>Кружек* горячей воды (85-90 C) за раз</td>
                                 <td colspan="5">26</td>
                         </tr>
-                        <tr class="table-light">
+                        <tr class="table-primary">
                                 <td>Кружек* ледяной воды (5-10 C) за раз</td>
                                 <td colspan="5">14</td>
                         </tr>
