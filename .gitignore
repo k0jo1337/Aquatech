@@ -16,3 +16,4 @@ aquatech/products/__pycache__/models.cpython-310.pyc
 aquatech/products/__pycache__/urls.cpython-310.pyc
 aquatech/products/__pycache__/views.cpython-310.pyc
 aquatech/products/migrations/__pycache__/__init__.cpython-310.pyc
+.idea
