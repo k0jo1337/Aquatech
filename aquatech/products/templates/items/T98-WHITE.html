@@ -3,7 +3,8 @@
 
 {% block title %}Товары{% endblock %}
 {% block content %}
-
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="{% static 'css/purifier_pages_style.css' %}" >
 
@@ -88,9 +89,15 @@
                                 <td>Кружек* горячей воды (85-90 C) за раз</td>
                                 <td colspan="5">40</td>
                         </tr>
-                        <tr class="table-primary">
+                        <tr class="table-info">
                                 <td>Кружек* ледяной воды (5-10 C) за раз</td>
                                 <td colspan="5">20</td>
+                        </tr>
+                        <tr class="table-primary">
+                                <td>Кружек воды комнатной температуры за раз</td>
+                                <td colspan="5">Любое количество
+                                        <p class="second-paragraph">После того, как бак горячей и ледяной воды кончится, кулер продолжит фильтровать водопроводную воду по её температуре.</p>
+                                </td>
                         </tr>
                         <tr>
                                 <td>Производительность ледяной воды</td>
