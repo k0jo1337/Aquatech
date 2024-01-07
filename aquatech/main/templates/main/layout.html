@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/css/bootstrap.min.css">   <!--КАРУСЕЛЬ-->
     <link rel="stylesheet" href="{% static 'css/purifier_pages_style.css' %}" >     <!--КАРУСЕЛЬ-->
     <script src="{% static 'js/main.js' %}"></script>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js "></script> <!--ОБНОВЛЯЕМАЯ ЦЕНА-->
+    <script src="https://unpkg.com/browse/memory-cache@0.2.0/index.js"></script>
+    <script src="{% static 'js/currentUSDToRUB.js' %}"></script> <!--ОБНОВЛЯЕМАЯ ЦЕНА-->
+    
+
     <title>{% block title %}{% endblock %}</title>
 </head>
 <body>
