@@ -3,6 +3,25 @@
     margin-bottom: -5px;
     font-style:italic;
 }
+
+.what-it-means {
+    font-size:small;
+    margin-bottom: -5px;
+    font-style:italic;
+}
+
+.hided {
+    display: none;
+  }
+
+  .what-it-means:hover
+  {
+    font-size:small;
+    margin-bottom: -5px;
+    font-style:italic;
+    text-decoration: underline;
+  }
+
 .intro-description{
     text-indent: 20px;
     text-align: justify;
@@ -24,6 +43,12 @@ text-align: center;
     color: #17a6bc;
     }
 
+.price-warning-description{
+    font-size: 13px;
+    font-style: italic;
+    color: grey;
+    font-weight: normal;
+}
 
 .carousel-indicators [data-bs-target]{
 width: 200px;
