@@ -20,7 +20,7 @@
     </span>
   </div>
   <div class="carousel-item carousel-item--1">
-    <div class="carousel-item__image"></div>
+    <div class="carousel-item__image" style="object-fit: contain;" ><img src="https://raw.githubusercontent.com/k0jo1337/Aquatech/main/aquatech/main/static/image/лол.png" alt="Панель пурифайера вплотную"></div>
     <div class="carousel-item__info">
       <div class="carousel-item__container">
       <h1 class="carousel-item__title">Чистая вода как из кулеров, но дешевле</h1>
@@ -30,25 +30,24 @@
     </div>
   </div>
   <div class="carousel-item carousel-item--2">
-    <div class="carousel-item__image"></div>
+    <div class="carousel-item__image"><img src="https://raw.githubusercontent.com/k0jo1337/Aquatech/main/aquatech/main/static/image/tt.png" width="600" height="600" alt="Панель пурифайера вплотную"></div>
     <div class="carousel-item__info">
       <div class="carousel-item__container">
-      <h2 class="carousel-item__subtitle">The big window </h2>
       <h1 class="carousel-item__title">Что такое пурифайер?</h1>
       <p class="carousel-item__description">Пурифайер для воды — это устройство, которое очищает водопроводную воду от различных загрязнений, таких как хлор, бактерии, вирусы, тяжелые металлы и другие вредные примеси. Если для кулеров нужно покупать воду практически всегда, то фильтр этой станции можно менять раз в полгода¹. Аппарат подключается к водопроводу, после многоуровневой фильтрации вкус воды и её качество идентичны бутилированной.
       </p>
-      <a href="#" class="carousel-item__btn">Подробнее</a>
+      <a href="{% url 'products'%}" class="carousel-item__btn">Подробнее</a>
         </div>
     </div>
   </div>
     <div class="carousel-item carousel-item--3">
-    <div class="carousel-item__image"></div>
+    <div class="carousel-item__image"><img src="https://raw.githubusercontent.com/k0jo1337/Aquatech/410c861702979f8fce366e160b6285fa2837b503/pics_purifiers_temp/Graph.svg" width="630" height="630" alt="График затрат на пурифайер и кулер"></div>
     <div class="carousel-item__info">
       <div class="carousel-item__container">
       <h2 class="carousel-item__subtitle">Tropical palms</h2>
       <h1 class="carousel-item__title">Зачем нам пурифайер, если есть кулеры?</h1>
       <p class="carousel-item__description">Пурифайер позволяет очищать воду непосредственно у себя дома или в офисе, что экономит время и деньги на покупку бутилированной воды. Экономия очевидна, если учитывать, что 1 литр чистой воды из пурифайера стоит меньше, чем 1 рубль, а 1 литр для кулера – примерно 10 рублей. По расчётам, для отеля или гостиницы 1 пурифайер окупается за 1 туристический сезон, а за 4 сезона вы сэкономите более 250 тысяч рублей!</p>
-      <a href="#" class="carousel-item__btn">Explore the palms</a>
+      <a href="{% url 'products'%}" class="carousel-item__btn">Выбрать</a>
         </div>
     </div>
   </div>
@@ -57,22 +56,31 @@
     <div class="carousel-item__image"></div>
     <div class="carousel-item__info">
       <div class="carousel-item__container">
-      <h2 class="carousel-item__subtitle">Beach </h2>
       <h1 class="carousel-item__title">Наши пурифайеры</h1>
       <p class="carousel-item__description">Есть множество видов пурифайеров: настольные, напольные, цвета также бывают разные. Мы работаем с аппаратам южнокорейской фирмы Ecotronic, что обеспечивает надежность и долговечность на долгие годы. Есть также аппараты и других фирм, в зависимости от пожеланий и финансовых возможностей клиента.</p>
-      <a href="#" class="carousel-item__btn">Посмотреть аппараты</a>
+      <a href="{% url 'products'%}" class="carousel-item__btn">Посмотреть аппараты</a>
         </div>
     </div>
   </div>
 
  <div class="carousel-item carousel-item--5">
-    <div class="carousel-item__image"></div>
+    <div class="carousel-item__image"><img src="https://raw.githubusercontent.com/k0jo1337/Aquatech/70a242b9a3b2065c34c62e66b41563722d2fd034/pics_purifiers_temp/1.svg" height="600" width="600" style="margin-top: 3%;" alt="Панель пурифайера вплотную"></div>
     <div class="carousel-item__info">
       <div class="carousel-item__container">
-      <h2 class="carousel-item__subtitle">The white building </h2>
-      <h1 class="carousel-item__title">White building</h1>
-      <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-      <a href="#" class="carousel-item__btn">Read the article</a>
+      <h1 class="carousel-item__title">Почему нам можно доверять</h1>
+      <p class="carousel-item__description">Наша компания работает на этом рынке более 5 лет, сотрудники работают с пурифайерами с 2016 года. Мы базируемся в городе Анапа, за 5 лет мы продали более 400 устройств.</p>
+      <a href="{% url 'products'%}" class="carousel-item__btn">Узнать ассортимент</a>
+        </div>
+    </div>
+  </div>
+
+  <div class="carousel-item carousel-item--6">
+    <div class="carousel-item__image"><img src="https://raw.githubusercontent.com/k0jo1337/Aquatech/70a242b9a3b2065c34c62e66b41563722d2fd034/pics_purifiers_temp/1.svg" height="600" width="600" style="margin-top: 3%;" alt="Панель пурифайера вплотную"></div>
+    <div class="carousel-item__info">
+      <div class="carousel-item__container">
+      <h1 class="carousel-item__title">С кем мы работаем</h1>
+      <p class="carousel-item__description">Мы работаем в Краснодарском крае и Крыму. Нашими клиентами являются 200 предприятий, предпринимателей. Присоединяйтесь!</p>
+      <a href="{% url 'products'%}" class="carousel-item__btn">Выбрать пурифайер</a>
         </div>
     </div>
   </div>

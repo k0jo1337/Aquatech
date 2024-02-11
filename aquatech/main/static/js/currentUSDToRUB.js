@@ -74,9 +74,6 @@ function setPriceByDocument(){ //функция для изображения ц
    запрос и сохраняет курс. */
 if (!localStorage.getItem('lastDV') || localStorage.getItem('lastDV') !== currentDate){
 
-  if (!localStorage.getItem('lastDV')){console.log('LOCAL_FILE_NOT_FOUND')} //
-  else {console.log('NEW DAY!!!')};                                         //Для дебага, удалить
-
   getNewDollarToRuble().then((dollarToRuble) => {
     localStorage.setItem('currencyExchangeRate', dollarToRuble.toString());
     setPriceByDocument();
