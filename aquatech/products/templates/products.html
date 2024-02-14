@@ -204,13 +204,12 @@
 
 <script>
   document.querySelectorAll('.btn-square-md').forEach(function(button) {
-      console.log('123');
-      button.addEventListener('click', function() {
-          var id = this.id;
-          var newTab = window.open('', '_blank');
-          newTab.location.href = window.location.href + '/' + id;
-      });
-  });
+    console.log('123');
+    button.addEventListener('click', function() {
+        var id = this.id;
+        window.location.href = window.location.href + '/' + id;
+    });
+});
 </script>
 
 
