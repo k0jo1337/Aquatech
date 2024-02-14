@@ -10,6 +10,15 @@
         max-height: 650px;
     }
 
+    .carousel-item__title{
+      line-height: 45px;
+    }
+
+    .main-page-image{
+      height:600px !important;
+      width: 600px !important;
+    }
+
     .header_img {
         max-width: 300px;
     }
@@ -33,6 +42,9 @@
     .carousel-size {
         max-width: 1500px;
         max-height: 850px;
+    }
+    .carousel-item__title{
+      line-height: 45px;
     }
 
     .header_img {
@@ -127,6 +139,11 @@ body {
 
 }
 
+.main-page-image{
+  height:800px;
+  width: 200px;
+}
+
 .carousel-item__image {
     width: 60%;
     height: 100%;
@@ -164,7 +181,7 @@ body {
     margin: 15px 0 0 0;
     font-family: 'Playfair Display', serif;
     font-size: 44px;
-    line-height: 45px;
+    line-height: 35px !important;
     letter-spacing: 3px;
     font-weight: 700;
     color: #2C2C2C;
@@ -485,7 +502,7 @@ div.profil_item_2{
 
 .main_product_items {
     width: 100%;
-    height: auto; /* Изменено на auto для адаптивной высоты */
+    height: 80%; /* Изменено на auto для адаптивной высоты */
 }
 
 .product_item {
