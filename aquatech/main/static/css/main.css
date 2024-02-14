@@ -306,7 +306,7 @@ transform: translateX(0);
 
 #menuToggle {
     display: block;
-    position: absolute;
+    position: fixed;  /* ТУТ */
     bottom: 4%;
     left: 2%;
     z-index: 1;
@@ -391,18 +391,16 @@ transform: translateX(0);
  * at the top left of the screen
  */
 #menu {
-  position: absolute;
-  box-shadow: 20px -20px 38px -10px #387099;
-  width: 370px;
-  margin: -270px 0 0 -50px; /* поменял позицию*/
-  padding-bottom: 120px;
-  padding-top: 10px;
-  height: 300px; /*размер*/ 
-  border-radius: 22px; /* добавил закругление */
-
-
-  background: #ededed;
-  list-style-type: none;
+    position: absolute;
+    box-shadow: 20px -20px 38px -10px #387099;
+    width: 440px;
+    margin: -310px 0 0 -50px;
+    padding-bottom: 120px;
+    padding-top: 10px;
+    height: 342px;
+    border-radius: 22px;
+    background: #ededed;
+    list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
 
@@ -411,7 +409,10 @@ transform: translateX(0);
 
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
-
+.appeal_text{
+    text-align: center;
+    font-size: inherit;
+}
 #menu li {
   padding: 10px 0;
   font-family: Helvetica, sans-serif;
@@ -428,7 +429,8 @@ transform: translateX(0);
   transform: none;
 }
 #menu-form{
-    margin-left: 7%;
+    margin-left: 3%; /* ТУТ */
+    width: 90%; /* ТУТ */
 
 }
 .menu-btn{
