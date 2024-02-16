@@ -10,6 +10,15 @@
         max-height: 650px;
     }
 
+    .carousel-item__title{
+      line-height: 45px;
+    }
+
+    .main-page-image{
+      height:600px !important;
+      width: 600px !important;
+    }
+
     .header_img {
         max-width: 300px;
     }
@@ -33,6 +42,9 @@
     .carousel-size {
         max-width: 1500px;
         max-height: 850px;
+    }
+    .carousel-item__title{
+      line-height: 45px;
     }
 
     .header_img {
@@ -114,11 +126,11 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-
+  
     display: -webkit-flex;
   -webkit-justify-content: center;
   -webkit-flex-direction: column;
-
+  
   order: 1;
   left: 0;
   margin: auto;
@@ -127,17 +139,22 @@ body {
 
 }
 
+.main-page-image{
+  height:800px;
+  width: 200px;
+}
+
 .carousel-item__image {
     width: 60%;
     height: 100%;
     order: 2;
     align-self: flex-end;
     flex-basis: 60%;
-
+  
       -webkit-order: 2;
     -webkit-align-self: flex-end;
     -webkit-flex-basis: 60%;
-
+  
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -152,7 +169,7 @@ body {
     font-size: 10px;
     text-transform: uppercase;
     margin: 0;
-    color: #7E7E7E;
+    color: #7E7E7E;    
     font-weight: 700;
     transform: translateY(25%);
     opacity: 0;
@@ -164,7 +181,7 @@ body {
     margin: 15px 0 0 0;
     font-family: 'Playfair Display', serif;
     font-size: 44px;
-    line-height: 45px;
+    line-height: 35px !important;
     letter-spacing: 3px;
     font-weight: 700;
     color: #2C2C2C;
@@ -281,7 +298,7 @@ body {
 
 
 
-.active .carousel-item__image{
+.active .carousel-item__image{ 
 transition: 0.6s all ease-in-out;
 transform: translateX(0);
 }
@@ -361,7 +378,7 @@ transform: translateX(0);
   transform-origin: 0% 100%;
 }
 
-/*
+/* 
  * Transform all the slices of hamburger
  * into a crossmark.
  */
@@ -485,7 +502,7 @@ div.profil_item_2{
 
 .main_product_items {
     width: 100%;
-    height: auto; /* Изменено на auto для адаптивной высоты */
+    height: 80%; /* Изменено на auto для адаптивной высоты */
 }
 
 .product_item {
