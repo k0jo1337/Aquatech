@@ -47,6 +47,11 @@
       line-height: 45px;
     }
 
+    .main-page-image{
+      height:800px !important;
+      width: 800px !important;
+    }
+
     .header_img {
         max-width: 400px;
     }
