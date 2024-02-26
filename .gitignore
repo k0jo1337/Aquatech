@@ -18,3 +18,4 @@ aquatech/products/__pycache__/views.cpython-310.pyc
 aquatech/products/migrations/__pycache__/__init__.cpython-310.pyc
 .idea
 /aquatech/main/migrations/0001_initial.py
+__pycache__
