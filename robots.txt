@@ -1,3 +1,7 @@
 User-agent: *
 Disallow: /static/
+<<<<<<< HEAD
 Allow: /static/image/
+=======
+Allow: /static/image/
+>>>>>>> 3fe585b (Исправил robots.txt)
