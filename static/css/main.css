@@ -525,3 +525,10 @@ div.phone p{
     margin-bottom:0px;
 }
 /* тестовый коммит*/
+
+.gg{
+    width: 100%;
+    position: absolute;
+    bottom: -316px;
+    background: red;
+}
