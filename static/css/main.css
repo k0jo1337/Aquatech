@@ -364,7 +364,7 @@ transform: translateX(0);
   margin-bottom: 5px;
   position: relative;
 
-  background: #387098;
+  background: #d9c5e5;
   border-radius: 3px;
 
   z-index: 1;
@@ -529,4 +529,33 @@ div.phone{
 div.phone p{
     margin-bottom:0px;
 }
-/* тестовый коммит*/
+.gg{
+  width: 100%;
+  position: absolute;
+  bottom: -316px;
+  background: #376e96;
+  color:white;
+}
+.nobullet {
+list-style-type: none;
+}
+.profil_container_for_products{
+  width: 100%;
+  max-width: 1050px;
+  position: absolute;
+  top: 120px;
+}
+.profil_item_2_products{
+  max-height: 600px;
+  width: 67%;
+  background: #F8FAFC;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  float: right;
+}
+.profil_item_1_products{
+  height: 100%;
+  width: 30%;
+  background: #F8FAFC;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  float: left;
+}
