@@ -65,11 +65,12 @@ function setPriceByDocument(){ //функция для изображения ц
       priceElement.innerHTML = Math.floor(H40_USD_PRICE_CONSTANT * localStorage.getItem('currencyExchangeRate'));  
       break;
     };
+  document.getElementById('dollar-currency').innerHTML = Math.round(100 * localStorage.getItem('currencyExchangeRate'))/100; //Передача курса в footer
 }
 
 
 /* У нас мало токенов. Поэтому после того как пользователь впервые делает API запрос,
-   значение курса сохраняется в localStorage. Если localStorage был сохранён в другой день (APIшка
+   значение курса сохраняется в localStorage браузера. Если localStorage был сохранён в другой день (APIшка
    обновляет курс раз в стуки), а не в тот, в который зашли на сайт, то он снова делает API
    запрос и сохраняет курс. */
 if (!localStorage.getItem('lastDV') || localStorage.getItem('lastDV') !== currentDate){
