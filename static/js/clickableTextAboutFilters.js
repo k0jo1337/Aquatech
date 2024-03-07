@@ -1,5 +1,7 @@
 let isClicked = false;
 
+currentDomain = window.location.origin;
+if (window.location.href.includes(currentDomain + "/products/")){
 document.addEventListener("DOMContentLoaded", function() {
     let clickableText = document.getElementById("what-it-means");
     clickableText.addEventListener("click", function() {
@@ -13,3 +15,4 @@ document.addEventListener("DOMContentLoaded", function() {
     };
 });
 });
+}
