@@ -7,12 +7,16 @@
 
 @media (max-width: 389px) {
   #menu{
-    height: 320px !important;
+    height: 375px !important;
     width: 400px !important;
-    margin-top: -400px !important;
+    margin-top: -360px !important;
+    margin-left: -45px;
     box-shadow: 20px 20px 60px -10px #387099 !important;
   }
   
+  .menu-btn{
+    margin-left: 225px !important;
+  }
   .carousel-size {
       max-width: 1000px;
       max-height: 650px;
@@ -20,6 +24,9 @@
   .gg{
     bottom: -550px !important;
   }
+
+  
+
   .carousel-item__title{
     line-height: 20px !important;
     font-size: 25px !important;
@@ -75,7 +82,8 @@
   #menu{
     height: 370px !important;
     width: 400px !important;
-    margin-top: -400px !important;
+    margin-top: -360px !important;
+    margin-left: -45px !important;
     box-shadow: 20px 20px 60px -10px #387099 !important;
   }
 
@@ -90,6 +98,9 @@
     line-height: 45px;
   }
 
+  .menu-btn{
+    margin-left: 227px !important;
+  }
   .main-page-image{
     height:400px;
     width: 400px;
@@ -513,7 +524,7 @@ transform: translateX(0);
     position: absolute;
     box-shadow: 20px 20px 38px -10px #387099;
     width: 440px;
-    margin: -310px 0 0 -50px;
+    margin: -250px 0 0 -50px;
     padding-bottom: 120px;
     padding-top: 10px;
     height: 260px;
@@ -553,7 +564,7 @@ transform: translateX(0);
 
 }
 .menu-btn{
-
+  margin-left:  265px;
 }
 
 .main_product_items{
