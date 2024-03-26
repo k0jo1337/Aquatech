@@ -216,6 +216,53 @@ body {
     height: 80%; /* Изменено на auto для адаптивной высоты */
 }
 
+.popupcontainer {
+  position: fixed;
+  opacity: 0.9;
+  display: none;
+  bottom: 8%;
+  left: 34%;
+  transform: translateX(-50%);
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  z-index: 1;
+}
+
+  /* Popup arrow */
+  .popupcontainer::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 3%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+/* Add animation (fade in the popup) */
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 0.9 ;}
+}
+
+.show {
+  display: block;
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeOut {
+  from {opacity: 0.9;}
+  to {opacity: 0;}
+}
+
+.hide{
+  animation: fadeOut 0.5s;
+}
+
 .carousel-item {
   visibility:visible;
     display: flex;
