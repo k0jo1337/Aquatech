@@ -16,6 +16,7 @@
 
   .what-it-means:hover
   {
+    cursor: pointer;
     font-size:small;
     margin-bottom: -5px;
     font-style:italic;
@@ -37,8 +38,15 @@ color: #176cbc;
 text-align: center;
 }
 
+div.scrollproducts {
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: thin;
+}
+
 .price-tag {
     font-size: 36px;
+    margin-left: 5px;
     font-weight: bold;
     color: #17a6bc;
     }
@@ -79,3 +87,19 @@ align-items: center;
 .carousel-control-prev{
 filter: invert(30%);
 }
+
+.zoomable-image {
+    cursor: zoom-in !important;
+    transition: transform 0.3s;
+  }
+  
+  .zoomed-image {
+    cursor: zoom-out !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: rgba(0, 0, 0, 0.8);
+  }

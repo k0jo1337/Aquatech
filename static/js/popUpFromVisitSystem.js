@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (localStorage.getItem('lastDV')) { //проверяется и сеттится в currentUSDToRUB
         if (Math.random() <= 0.1) enablePopUp();
     }
-     else { 
+     else {
         enablePopUp();
      }
 
